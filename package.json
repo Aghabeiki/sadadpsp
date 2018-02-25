@@ -1,10 +1,10 @@
 {
   "name": "sadadpsp",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "Sadad Payment gateway(BMI) API Implementation",
   "main": "index.js",
   "scripts": {
-    "eslint": "eslint --ignore-path ./.gitignore .",
+    "eslint": "eslint --ignore-path ./.eslintignore .",
     "pretest": "npm run eslint",
     "test": "mocha test/units/*.test.js"
   },

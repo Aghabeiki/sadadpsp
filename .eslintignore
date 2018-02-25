@@ -1,0 +1,10 @@
+node_modules/
+.eslintcache
+.npm
+.idea/
+logs
+*.log
+npm-debug.log*
+coverage
+.nyc_output
+docs/
