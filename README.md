@@ -17,7 +17,7 @@ var sadadpsp = require('sadadpsp');
 sadadpsp({}); 
 ```
 Docs:
-
+[Docs available here](https://raianraika.github.io/sadadpsp/)
 ## License
 
 MIT © [Amin.Aghabeiki](https://github.com/RaianRaika)
