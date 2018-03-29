@@ -53,7 +53,7 @@ class SadadPaymentGateway {
 			return {
 				results: results,
 				status: true,
-				redirectURL: `https://sadad.shaparak.ir/VPG/Purchase?Token=$${results.Token}`,
+				redirectURL: `https://sadad.shaparak.ir/VPG/Purchase?Token=${results.Token}`,
 			}
 		}
 		catch (err) {
