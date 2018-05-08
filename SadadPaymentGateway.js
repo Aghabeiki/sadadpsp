@@ -83,7 +83,7 @@ class SadadPaymentGateway {
 				SignData: helper.encryptPkcs7(token, this._config.key),
 			}
 			const res = await helper.verifyPayment(verifyData)
-			if (res.ResCode.toString() !== '-1') {
+			if (res.ResCode.toString() === '-1') {
 				return {
 					message: 'تراکنش نا موفق بود در صورت کسر مبلغ از حساب شما حداکثر پس از 72 ساعت مبلغ به حسابتان برمی گردد.',
 					results: res,

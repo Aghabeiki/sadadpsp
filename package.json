@@ -1,6 +1,6 @@
 {
   "name": "sadadpsp",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "description": "Sadad Payment gateway(BMI) API Implementation",
   "main": "index.js",
   "scripts": {
